@@ -1,0 +1,66 @@
+
+name: TFF Otomatik Guncelleme
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tff-guncelleme
+  cancel-in-progress: false
+
+jobs:
+  yenile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Depoyu indir
+        uses: actions/checkout@v4
+
+      - name: Python hazirla
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: TFF verilerini kontrol et
+        id: tff
+        continue-on-error: true
+        run: python tff_yenile.py
+
+      - name: Guvenli yayin dosyasini olustur
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from tff_yenile import public_feed
+
+          source = Path("tff_guncel.json")
+          try:
+              data = json.loads(source.read_text(encoding="utf-8"))
+              output = public_feed(data)
+          except (OSError, ValueError, TypeError):
+              output = {
+                  "surum": 1,
+                  "durum": "BEKLET",
+                  "guncel": False,
+                  "maclar": []
+              }
+
+          Path("tff.json").write_text(
+              json.dumps(output, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Yayini GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tff.json
+          git diff --cached --quiet || git commit -m "TFF verilerini guncelle"
+          git push
