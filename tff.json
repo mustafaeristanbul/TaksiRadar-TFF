@@ -1,0 +1,56 @@
+{
+  "surum": 1,
+  "saat_dilimi": "Europe/Istanbul",
+  "kontrol_zamani_utc": "2026-10-12T12:43:41.785060+00:00",
+  "durum": "GUNCEL",
+  "son_basarili_kontrol_utc": "2026-10-12T12:43:41.785060+00:00",
+  "gecerli_son_utc": "2026-10-12T13:03:41.785060+00:00",
+  "maclar": [
+    {
+      "mac_id": "317839",
+      "ev_sahibi": "EYÜPSPOR",
+      "deplasman": "GÖZTEPE A.Ş.",
+      "stadyum": "ESENYURT NECMİ KADIOĞLU STADI - İSTANBUL",
+      "stad_id": "5372",
+      "enlem": 41.0241904,
+      "boylam": 28.6977799,
+      "baslangic": "2026-10-12T20:00:00",
+      "tahmini_bitis_ilk": "2026-10-12T21:50:00",
+      "tahmini_bitis_son": "2026-10-12T22:00:00",
+      "bildirim_zamani": "2026-10-12T21:20:00",
+      "saat_turu": "TAHMINI",
+      "saat_dilimi": "Europe/Istanbul",
+      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317839"
+    }
+  ],
+  "kaynak_kontrolu": {
+    "kaynak": "https://www.tff.org/?pageID=198",
+    "durum": "DOGRULANDI",
+    "neden": "TUM_ADAY_DETAYLARI_DOGRULANDI",
+    "fikstur_satiri": 9,
+    "aday": 3,
+    "dogrulanan": 3,
+    "maclar": [
+      {
+        "mac_id": "317844",
+        "stad_id": "5018"
+      },
+      {
+        "mac_id": "317845",
+        "stad_id": "6097"
+      },
+      {
+        "mac_id": "317839",
+        "stad_id": "5372"
+      }
+    ]
+  },
+  "degisiklikler": [
+    {
+      "mac_id": "317839",
+      "karar": "YENI_MAC_DOGRULA"
+    }
+  ],
+  "guvenlik_kararlari": [],
+  "guncel": true
+}
