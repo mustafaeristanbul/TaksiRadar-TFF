@@ -1,22 +1,34 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-10-12T21:21:31.540146+00:00",
-  "durum": "BEKLET",
-  "son_basarili_kontrol_utc": null,
-  "gecerli_son_utc": null,
+  "kontrol_zamani_utc": "2026-10-12T21:40:39.327478+00:00",
+  "durum": "GUNCEL",
+  "son_basarili_kontrol_utc": "2026-10-12T21:40:39.327478+00:00",
+  "gecerli_son_utc": "2026-10-12T22:00:39.327478+00:00",
   "maclar": [],
   "kaynak_kontrolu": {
     "kaynak": "https://www.tff.org/?pageID=198",
-    "durum": "BEKLET",
-    "neden": "DOGRULANAMAYAN_MAC_DETAYI",
+    "durum": "DOGRULANDI",
+    "neden": "TUM_ADAY_DETAYLARI_DOGRULANDI",
     "fikstur_satiri": 9,
     "aday": 3,
-    "dogrulanan": 0,
-    "maclar": []
+    "dogrulanan": 3,
+    "maclar": [
+      {
+        "mac_id": "317844",
+        "stad_id": "5018"
+      },
+      {
+        "mac_id": "317845",
+        "stad_id": "6097"
+      },
+      {
+        "mac_id": "317839",
+        "stad_id": "5372"
+      }
+    ]
   },
-  "neden": "DOGRULANAMAYAN_MAC_DETAYI",
   "degisiklikler": [],
   "guvenlik_kararlari": [],
-  "guncel": false
+  "guncel": true
 }
