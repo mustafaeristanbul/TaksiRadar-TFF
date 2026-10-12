@@ -1,10 +1,10 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-10-12T16:00:54.448313+00:00",
+  "kontrol_zamani_utc": "2026-10-12T16:23:37.724123+00:00",
   "durum": "GUNCEL",
-  "son_basarili_kontrol_utc": "2026-10-12T16:00:54.448313+00:00",
-  "gecerli_son_utc": "2026-10-12T16:20:54.448313+00:00",
+  "son_basarili_kontrol_utc": "2026-10-12T16:23:37.724123+00:00",
+  "gecerli_son_utc": "2026-10-12T16:43:37.724123+00:00",
   "maclar": [
     {
       "mac_id": "317839",
