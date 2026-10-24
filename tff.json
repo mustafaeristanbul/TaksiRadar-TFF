@@ -1,27 +1,11 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-10-24T12:13:54.409148+00:00",
+  "kontrol_zamani_utc": "2026-10-24T12:52:08.169543+00:00",
   "durum": "GUNCEL",
-  "son_basarili_kontrol_utc": "2026-10-24T12:13:54.409148+00:00",
-  "gecerli_son_utc": "2026-10-24T12:33:54.409148+00:00",
+  "son_basarili_kontrol_utc": "2026-10-24T12:52:08.169543+00:00",
+  "gecerli_son_utc": "2026-10-24T13:12:08.169543+00:00",
   "maclar": [
-    {
-      "mac_id": "317857",
-      "ev_sahibi": "EYÜPSPOR",
-      "deplasman": "KASIMPAŞA A.Ş.",
-      "stadyum": "ESENYURT NECMİ KADIOĞLU STADI - İSTANBUL",
-      "stad_id": "5372",
-      "enlem": 41.0241904,
-      "boylam": 28.6977799,
-      "baslangic": "2026-10-24T13:30:00",
-      "tahmini_bitis_ilk": "2026-10-24T15:20:00",
-      "tahmini_bitis_son": "2026-10-24T15:30:00",
-      "bildirim_zamani": "2026-10-24T14:50:00",
-      "saat_turu": "TAHMINI",
-      "saat_dilimi": "Europe/Istanbul",
-      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317857"
-    },
     {
       "mac_id": "317863",
       "ev_sahibi": "BEŞİKTAŞ A.Ş.",
@@ -78,10 +62,6 @@
     ]
   },
   "degisiklikler": [
-    {
-      "mac_id": "317857",
-      "karar": "YENI_MAC_DOGRULA"
-    },
     {
       "mac_id": "317862",
       "karar": "YENI_MAC_DOGRULA"
