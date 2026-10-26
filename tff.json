@@ -1,27 +1,11 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-10-26T17:49:02.329368+00:00",
+  "kontrol_zamani_utc": "2026-10-26T18:21:09.572705+00:00",
   "durum": "GUNCEL",
-  "son_basarili_kontrol_utc": "2026-10-26T17:49:02.329368+00:00",
-  "gecerli_son_utc": "2026-10-26T18:09:02.329368+00:00",
+  "son_basarili_kontrol_utc": "2026-10-26T18:21:09.572705+00:00",
+  "gecerli_son_utc": "2026-10-26T18:41:09.572705+00:00",
   "maclar": [
-    {
-      "mac_id": "317863",
-      "ev_sahibi": "BEŞİKTAŞ A.Ş.",
-      "deplasman": "İSTANBUL BAŞAKŞEHİR FK",
-      "stadyum": "BEŞİKTAŞ PARK - İSTANBUL",
-      "stad_id": "6097",
-      "enlem": 41.0392313,
-      "boylam": 28.9945594,
-      "baslangic": "2026-10-26T19:00:00",
-      "tahmini_bitis_ilk": "2026-10-26T20:50:00",
-      "tahmini_bitis_son": "2026-10-26T21:00:00",
-      "bildirim_zamani": "2026-10-26T20:20:00",
-      "saat_turu": "TAHMINI",
-      "saat_dilimi": "Europe/Istanbul",
-      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317863"
-    },
     {
       "mac_id": "317862",
       "ev_sahibi": "GALATASARAY A.Ş.",
@@ -64,10 +48,6 @@
   "degisiklikler": [
     {
       "mac_id": "317862",
-      "karar": "YENI_MAC_DOGRULA"
-    },
-    {
-      "mac_id": "317863",
       "karar": "YENI_MAC_DOGRULA"
     }
   ],
