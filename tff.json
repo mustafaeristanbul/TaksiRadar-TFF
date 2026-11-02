@@ -1,22 +1,96 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-11-02T21:20:26.890948+00:00",
-  "durum": "BEKLET",
-  "son_basarili_kontrol_utc": null,
-  "gecerli_son_utc": null,
-  "maclar": [],
+  "kontrol_zamani_utc": "2026-11-02T22:02:24.162353+00:00",
+  "durum": "GUNCEL",
+  "son_basarili_kontrol_utc": "2026-11-02T22:02:24.162353+00:00",
+  "gecerli_son_utc": "2026-11-02T22:22:24.162353+00:00",
+  "maclar": [
+    {
+      "mac_id": "317875",
+      "ev_sahibi": "EYÜPSPOR",
+      "deplasman": "KOCAELİSPOR",
+      "stadyum": "ESENYURT NECMİ KADIOĞLU STADI - İSTANBUL",
+      "stad_id": "5372",
+      "enlem": 41.0241904,
+      "boylam": 28.6977799,
+      "baslangic": "2026-11-07T13:30:00",
+      "tahmini_bitis_ilk": "2026-11-07T15:20:00",
+      "tahmini_bitis_son": "2026-11-07T15:30:00",
+      "bildirim_zamani": "2026-11-07T14:50:00",
+      "saat_turu": "TAHMINI",
+      "saat_dilimi": "Europe/Istanbul",
+      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317875"
+    },
+    {
+      "mac_id": "317880",
+      "ev_sahibi": "GALATASARAY A.Ş.",
+      "deplasman": "AMED SPORTİF FAALİYETLER",
+      "stadyum": "ALİ SAMİ YEN SPOR KOMPLEKSİ RAMS PARK - İSTANBUL",
+      "stad_id": "5018",
+      "enlem": 41.1033729,
+      "boylam": 28.9909648,
+      "baslangic": "2026-11-07T19:00:00",
+      "tahmini_bitis_ilk": "2026-11-07T20:50:00",
+      "tahmini_bitis_son": "2026-11-07T21:00:00",
+      "bildirim_zamani": "2026-11-07T20:20:00",
+      "saat_turu": "TAHMINI",
+      "saat_dilimi": "Europe/Istanbul",
+      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317880"
+    },
+    {
+      "mac_id": "317881",
+      "ev_sahibi": "BEŞİKTAŞ A.Ş.",
+      "deplasman": "GENÇLERBİRLİĞİ",
+      "stadyum": "BEŞİKTAŞ PARK - İSTANBUL",
+      "stad_id": "6097",
+      "enlem": 41.0392313,
+      "boylam": 28.9945594,
+      "baslangic": "2026-11-08T21:00:00",
+      "tahmini_bitis_ilk": "2026-11-08T22:50:00",
+      "tahmini_bitis_son": "2026-11-08T23:00:00",
+      "bildirim_zamani": "2026-11-08T22:20:00",
+      "saat_turu": "TAHMINI",
+      "saat_dilimi": "Europe/Istanbul",
+      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317881"
+    }
+  ],
   "kaynak_kontrolu": {
     "kaynak": "https://www.tff.org/?pageID=198",
-    "durum": "BEKLET",
-    "neden": "DOGRULANAMAYAN_MAC_DETAYI",
+    "durum": "DOGRULANDI",
+    "neden": "TUM_ADAY_DETAYLARI_DOGRULANDI",
     "fikstur_satiri": 9,
     "aday": 3,
-    "dogrulanan": 0,
-    "maclar": []
+    "dogrulanan": 3,
+    "maclar": [
+      {
+        "mac_id": "317875",
+        "stad_id": "5372"
+      },
+      {
+        "mac_id": "317880",
+        "stad_id": "5018"
+      },
+      {
+        "mac_id": "317881",
+        "stad_id": "6097"
+      }
+    ]
   },
-  "neden": "DOGRULANAMAYAN_MAC_DETAYI",
-  "degisiklikler": [],
+  "degisiklikler": [
+    {
+      "mac_id": "317875",
+      "karar": "YENI_MAC_DOGRULA"
+    },
+    {
+      "mac_id": "317880",
+      "karar": "YENI_MAC_DOGRULA"
+    },
+    {
+      "mac_id": "317881",
+      "karar": "YENI_MAC_DOGRULA"
+    }
+  ],
   "guvenlik_kararlari": [],
-  "guncel": false
+  "guncel": true
 }
