@@ -1,27 +1,11 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-11-07T12:24:10.959140+00:00",
+  "kontrol_zamani_utc": "2026-11-07T13:19:14.331158+00:00",
   "durum": "GUNCEL",
-  "son_basarili_kontrol_utc": "2026-11-07T12:24:10.959140+00:00",
-  "gecerli_son_utc": "2026-11-07T12:44:10.959140+00:00",
+  "son_basarili_kontrol_utc": "2026-11-07T13:19:14.331158+00:00",
+  "gecerli_son_utc": "2026-11-07T13:39:14.331158+00:00",
   "maclar": [
-    {
-      "mac_id": "317875",
-      "ev_sahibi": "EYÜPSPOR",
-      "deplasman": "KOCAELİSPOR",
-      "stadyum": "ESENYURT NECMİ KADIOĞLU STADI - İSTANBUL",
-      "stad_id": "5372",
-      "enlem": 41.0241904,
-      "boylam": 28.6977799,
-      "baslangic": "2026-11-07T13:30:00",
-      "tahmini_bitis_ilk": "2026-11-07T15:20:00",
-      "tahmini_bitis_son": "2026-11-07T15:30:00",
-      "bildirim_zamani": "2026-11-07T14:50:00",
-      "saat_turu": "TAHMINI",
-      "saat_dilimi": "Europe/Istanbul",
-      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317875"
-    },
     {
       "mac_id": "317880",
       "ev_sahibi": "GALATASARAY A.Ş.",
@@ -78,10 +62,6 @@
     ]
   },
   "degisiklikler": [
-    {
-      "mac_id": "317875",
-      "karar": "YENI_MAC_DOGRULA"
-    },
     {
       "mac_id": "317880",
       "karar": "YENI_MAC_DOGRULA"
