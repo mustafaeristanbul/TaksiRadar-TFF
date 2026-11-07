@@ -1,27 +1,11 @@
 {
   "surum": 1,
   "saat_dilimi": "Europe/Istanbul",
-  "kontrol_zamani_utc": "2026-11-07T17:58:47.593885+00:00",
+  "kontrol_zamani_utc": "2026-11-07T18:29:50.651957+00:00",
   "durum": "GUNCEL",
-  "son_basarili_kontrol_utc": "2026-11-07T17:58:47.593885+00:00",
-  "gecerli_son_utc": "2026-11-07T18:18:47.593885+00:00",
+  "son_basarili_kontrol_utc": "2026-11-07T18:29:50.651957+00:00",
+  "gecerli_son_utc": "2026-11-07T18:49:50.651957+00:00",
   "maclar": [
-    {
-      "mac_id": "317880",
-      "ev_sahibi": "GALATASARAY A.Ş.",
-      "deplasman": "AMED SPORTİF FAALİYETLER",
-      "stadyum": "ALİ SAMİ YEN SPOR KOMPLEKSİ RAMS PARK - İSTANBUL",
-      "stad_id": "5018",
-      "enlem": 41.1033729,
-      "boylam": 28.9909648,
-      "baslangic": "2026-11-07T19:00:00",
-      "tahmini_bitis_ilk": "2026-11-07T20:50:00",
-      "tahmini_bitis_son": "2026-11-07T21:00:00",
-      "bildirim_zamani": "2026-11-07T20:20:00",
-      "saat_turu": "TAHMINI",
-      "saat_dilimi": "Europe/Istanbul",
-      "kaynak": "https://www.tff.org/Default.aspx?pageId=29&macId=317880"
-    },
     {
       "mac_id": "317881",
       "ev_sahibi": "BEŞİKTAŞ A.Ş.",
@@ -62,10 +46,6 @@
     ]
   },
   "degisiklikler": [
-    {
-      "mac_id": "317880",
-      "karar": "YENI_MAC_DOGRULA"
-    },
     {
       "mac_id": "317881",
       "karar": "YENI_MAC_DOGRULA"
